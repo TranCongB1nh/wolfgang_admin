@@ -1,0 +1,9 @@
+.input-wrapper.flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.data-form {
+    overflow-y: auto;
+}

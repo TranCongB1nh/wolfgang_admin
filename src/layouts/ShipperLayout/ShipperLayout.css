@@ -1,0 +1,78 @@
+.shipper {
+    display: flex;
+    padding: 20px; 
+    justify-content: space-between;
+}
+
+.form-left {
+    width: 25%;
+    height: 500px; 
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #2b2c40;
+}
+
+.form-left .button {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1000px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #f39c12;
+}
+
+.form-left .button .icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.form-right {
+    width: 74%;
+    height: 100%;
+    overflow-x: auto;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 0;
+    background-color: #2b2c40;
+}
+
+.form-right button {
+    outline: none;
+    border: none;
+    background-color: #2b2c40;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-right .button {
+    outline: none;
+    border: none;
+    background-color: #2b2c40;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    cursor: default;
+}
+
+.form-right button:hover {
+    background-color: #f39c12;
+    color: #2b2c40;
+}

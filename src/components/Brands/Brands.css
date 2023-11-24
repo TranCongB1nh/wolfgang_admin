@@ -1,0 +1,95 @@
+.category-section {
+    display: flex;
+    height: calc(100% - 85px);
+}
+
+.category-section .body-section {
+    background: none;
+    box-shadow: none;
+    display: flex;
+    padding: 0;
+    height: calc(100% - 90px);
+}
+
+.data-form {
+    width: 400px;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(43,44,64);
+}
+
+.table-form {
+    width: calc(100% - 400px);
+    margin-left: 10px;
+}
+
+.data-form h1 { 
+    color: #9980FA;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.data-form .input-wrapper {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.data-form .input-wrapper label {
+    color: rgb(219,219,235);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.data-form .input-wrapper > input,
+.data-form .input-wrapper > select,
+.data-form .input-wrapper option {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(58, 59, 80);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
+
+.data-form .input-wrapper .checkbox input {
+    /* width: fit-content;  */
+    background: none;
+    margin: 0;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.data-form .input-wrapper .checkbox label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    height: 30px;
+}
+
+.data-form .input-wrapper button { 
+    height: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 40px;
+    width: 120px;
+    outline: none;
+    border: none;
+    background-color: #9980FA;
+    cursor: pointer;
+    margin: 30px auto;
+    display: block;
+}
+
+.data-form .input-wrapper button:hover {
+    background-color: #9b59b6;
+}
